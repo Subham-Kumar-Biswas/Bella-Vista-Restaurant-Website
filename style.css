@@ -351,6 +351,11 @@ section {
     .nav-links {
         gap: 1rem;
     }
+
+    . about {
+        margin: 0 auto;
+        padding: 0 15px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -484,4 +489,5 @@ section {
     padding-top: 2rem;
     border-top: 1px solid #34495e;
     color: #bdc3c7;
+
 }
