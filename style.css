@@ -353,30 +353,35 @@ section {
     }
 
     . about {
-        padding: 1.2rem;
+        padding: 2rem 0;
     }
 }
 
 @media (max-width: 480px) {
-    section {
-        scroll-margin-top: 250px;
+
+    .about {
+        padding: 1.5rem 0;
     }
 
-    .hero {
-        margin-top: 140px;
+    .about .container {
+        padding: 0 1rem;
     }
 
-    .hero-content h2 {
-        font-size: 2rem;
+    .about-content {
+        gap: 1.5rem;
     }
 
-    .container {
-        padding: 0 15px;
+    .about-text h3 {
+        font-size: 1.5rem;
     }
 
-    .nav-links {
-        flex-direction: column;
-        gap: 0.5rem;
+    .about-text p {
+        font-size: 1rem;
+    }
+
+    .about-image img {
+        height: auto;
+        max-height: 260px;
     }
 }
 
@@ -490,4 +495,5 @@ section {
     color: #bdc3c7;
 
 }
+
 
