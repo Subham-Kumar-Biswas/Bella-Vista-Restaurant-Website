@@ -353,8 +353,7 @@ section {
     }
 
     . about {
-        margin: 0 auto;
-        padding: 0 15px;
+        padding: 1.2rem;
     }
 }
 
@@ -491,3 +490,4 @@ section {
     color: #bdc3c7;
 
 }
+
