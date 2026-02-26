@@ -4,6 +4,10 @@
     box-sizing: border-box;
 } 
 
+html, body{
+  overflow-x: hidden;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -485,3 +489,4 @@ section {
     border-top: 1px solid #34495e;
     color: #bdc3c7;
 }
+
